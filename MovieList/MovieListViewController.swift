@@ -13,6 +13,7 @@ import CoreData
 
 class MovieListViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource {
     
+    //IBOutlets
     @IBOutlet var tableView: UITableView!
     var MoviewList = MovieDataList()
     
